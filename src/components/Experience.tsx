@@ -5,9 +5,9 @@ export default function Experience() {
     <section id="experience" className="py-24 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <p className="text-violet-600 font-medium tracking-widest text-sm uppercase mb-2">My Journey</p>
+          <p className="text-blue-600 font-medium tracking-widest text-sm uppercase mb-2">My Journey</p>
           <h2 className="text-4xl font-bold text-gray-800">Work Experience</h2>
-          <div className="w-16 h-1 bg-violet-600 mx-auto mt-4 rounded-full" />
+          <div className="w-16 h-1 bg-blue-600 mx-auto mt-4 rounded-full" />
         </div>
 
         <div className="relative">
@@ -18,17 +18,17 @@ export default function Experience() {
             {experienceData.map((exp, index) => (
               <div key={exp.id} className={`relative flex flex-col md:flex-row gap-8 ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
                 {/* Timeline dot */}
-                <div className="hidden md:flex absolute left-1/2 top-6 -translate-x-1/2 w-4 h-4 bg-violet-600 rounded-full border-4 border-gray-50 z-10 shadow-md" />
+                <div className="hidden md:flex absolute left-1/2 top-6 -translate-x-1/2 w-4 h-4 bg-blue-600 rounded-full border-4 border-gray-50 z-10 shadow-md" />
 
                 {/* Spacer */}
                 <div className="hidden md:block md:w-1/2" />
 
                 {/* Content */}
-                <div className="md:w-1/2 bg-white rounded-2xl p-6 border border-gray-200 hover:border-violet-400 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <div className="md:w-1/2 bg-white rounded-2xl p-6 border border-gray-200 hover:border-blue-400 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                   <div className="flex justify-between items-start mb-3">
                     <div>
                       <h3 className="text-xl font-bold text-gray-800">{exp.title}</h3>
-                      <p className="text-violet-600 font-medium">{exp.company}</p>
+                      <p className="text-blue-600 font-medium">{exp.company}</p>
                     </div>
                     <span className={`px-3 py-1 text-xs font-medium rounded-full ${
                       exp.type === 'Full-time'
@@ -47,7 +47,7 @@ export default function Experience() {
                   <ul className="flex flex-col gap-2">
                     {exp.responsibilities.map((item, i) => (
                       <li key={i} className="flex gap-2 text-gray-500 text-sm">
-                        <span className="text-violet-500 mt-0.5 flex-shrink-0">▸</span>
+                        <span className="text-blue-500 mt-0.5 flex-shrink-0">▸</span>
                         {item}
                       </li>
                     ))}

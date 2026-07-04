@@ -1,44 +1,86 @@
 [
   {
     "id": 1,
-    "title": "Senior Full-Stack Developer",
-    "company": "Tech Solutions Inc.",
+    "title": "Full-Stack Software Development Program",
+    "company": "Purwadhika Digital Technology School",
     "location": "Jakarta, Indonesia",
-    "period": "2023 - Present",
-    "type": "Full-time",
+    "period": "Jan 2026 - Jul 2026",
+    "type": "Bootcamp",
     "responsibilities": [
-      "Led development of scalable web applications using React and Node.js",
-      "Architected RESTful APIs serving 100k+ daily active users",
-      "Mentored junior developers and conducted code reviews",
-      "Implemented CI/CD pipelines reducing deployment time by 40%"
+      "Completed an intensive, full-stack software development program covering JavaScript, TypeScript, React.js, Next.js, Express.js, Node.js, and PostgreSQL",
+      "Practiced RESTful API design, relational database management, and Prisma ORM through hands-on projects",
+      "Built responsive, state-driven web applications following modern full-stack architecture and agile development practices",
+      "Made the deliberate decision to transition my career from geophysics into IT, channeling years of analytical and data-driven experience into software engineering"
     ]
   },
   {
     "id": 2,
-    "title": "Full-Stack Developer",
-    "company": "Digital Agency XYZ",
-    "location": "Bandung, Indonesia",
-    "period": "2021 - 2023",
-    "type": "Full-time",
+    "title": "Web Developer",
+    "company": "Rejeki Barokah",
+    "location": "Jombang, Jawa Timur",
+    "period": "2025",
+    "type": "Freelance",
     "responsibilities": [
-      "Built and maintained 10+ client websites using React and Express.js",
-      "Integrated third-party APIs including payment gateways and social media",
-      "Optimized database queries improving performance by 30%",
-      "Collaborated with UI/UX designers to implement pixel-perfect designs"
+      "Consulted with the client to understand business needs and target customers",
+      "Designed a UI/UX that matched the client's brand and customer expectations",
+      "Developed the website front-end, translating design and structure into working code",
+      "Reviewed results with the client and iterated on feedback to fix minor issues"
     ]
   },
   {
     "id": 3,
-    "title": "Frontend Developer",
-    "company": "Startup Hub",
-    "location": "Remote",
-    "period": "2020 - 2021",
-    "type": "Freelance",
+    "title": "Professional Development - Working Holiday Visa Program",
+    "company": "Toll Global Forwarding, Woolworths & Baiada Poultry",
+    "location": "New South Wales, Australia",
+    "period": "Oct 2022 - 2025",
+    "type": "Full-time",
     "responsibilities": [
-      "Developed responsive web interfaces for various startup clients",
-      "Converted Figma/Adobe XD designs into functional React components",
-      "Ensured cross-browser compatibility and mobile responsiveness",
-      "Delivered 15+ projects on time with client satisfaction rate of 95%"
+      "Took an intentional career break to join Australia's Working Holiday Visa program, immersing myself in a cross-cultural, English-speaking work environment",
+      "Operated as a Forklift Driver and Assistant Warehouse Operator at Toll Global Forwarding, maintaining safety standards and coordinating tasks under time pressure",
+      "Worked as a Voice Picker at Woolworths' warehouse, using warehouse management systems to sharpen speed, accuracy, and attention to detail",
+      "Contributed as a Marination Employee at Baiada Poultry, maintaining strict quality control and operational efficiency in a fast-paced production line",
+      "Developed strong discipline, adaptability, and problem-solving skills that now translate directly into a structured, detail-oriented approach to software development"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Assistant Lecturer",
+    "company": "Institut Teknologi Sepuluh Nopember (ITS)",
+    "location": "Surabaya, Indonesia",
+    "period": "Sep 2021 - Mar 2022",
+    "type": "Part-time",
+    "responsibilities": [
+      "Mentored and supervised a cohort of 50+ students through rigorous, hands-on geophysical fieldwork and data acquisition programs at the Lusi (Lumpur Sidoarjo) embankment",
+      "Led field measurements across Electrical & Electromagnetic (24 VES points, 12 Resistivity lines, 36 GPR lines), Seismic & GPR (12 Seismic lines, 36 GPR lines), and Potential Fields (96 Gravity and Magnetic stations)",
+      "Evaluated, processed, and validated complex multi-method subsurface datasets for precise structural modeling",
+      "Fostered a collaborative learning environment, breaking down advanced geoelectrical and seismic theories into actionable, step-by-step workflows"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Online Marketing Assistant",
+    "company": "PT. DOLEN Surabaya Sugih",
+    "location": "Surabaya, Indonesia",
+    "period": "Apr 2020 - Mar 2021",
+    "type": "Part-time",
+    "responsibilities": [
+      "Managed and optimized digital marketing campaigns for an e-commerce food supply platform, supporting online sales and B2B client acquisitions",
+      "Analyzed digital marketing and customer data alongside platform traffic to identify trends and improve promotional strategy",
+      "Utilized digital platforms and automation tools to streamline daily marketing workflows, order processing, and customer response times",
+      "Collaborated with cross-functional teams to align product listings with market demand and inventory availability"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Scientific Researcher",
+    "company": "Institut Teknologi Sepuluh Nopember (ITS)",
+    "location": "Gresik, East Java, Indonesia",
+    "period": "Nov 2020 - Dec 2020",
+    "type": "Part-time",
+    "responsibilities": [
+      "Conducted research on the identification of subsurface faults across Lamongan, Gresik, and Surabaya using Magnetotelluric (MT) survey methods",
+      "Processed and interpreted geophysical field data using Python to model subsurface structures",
+      "Presented findings that contributed to a clearer understanding of regional fault systems"
     ]
   }
 ]

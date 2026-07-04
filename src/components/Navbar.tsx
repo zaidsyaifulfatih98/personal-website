@@ -21,7 +21,7 @@ export default function Navbar() {
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-md' : 'bg-transparent'}`}>
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <span className="text-2xl font-bold text-gray-800">
-          ZF<span className="text-violet-600">.</span>
+          ZF<span className="text-blue-600">.</span>
         </span>
 
         {/* Desktop Menu */}
@@ -30,7 +30,7 @@ export default function Navbar() {
             <li key={link}>
               <button
                 onClick={() => scrollTo(link)}
-                className="text-gray-600 hover:text-violet-600 transition-colors text-sm font-medium"
+                className="text-gray-600 hover:text-blue-600 transition-colors text-sm font-medium"
               >
                 {link}
               </button>
@@ -53,7 +53,7 @@ export default function Navbar() {
             <button
               key={link}
               onClick={() => scrollTo(link)}
-              className="block w-full text-left text-gray-600 hover:text-violet-600 py-2 text-sm font-medium"
+              className="block w-full text-left text-gray-600 hover:text-blue-600 py-2 text-sm font-medium"
             >
               {link}
             </button>
