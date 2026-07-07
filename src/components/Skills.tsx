@@ -4,45 +4,22 @@ export default function Skills() {
       title: 'Front-End',
       icon: '🎨',
       color: 'from-blue-400 to-blue-600',
-      bar: 'from-blue-400 to-blue-600',
-      bg: 'bg-blue-50',
-      border: 'border-blue-200',
-      skills: [
-        { name: 'React / Next.js', level: 95 },
-        { name: 'TypeScript', level: 90 },
-        { name: 'Tailwind CSS', level: 92 },
-        { name: 'HTML / CSS', level: 98 },
-        { name: 'Bootstrap', level: 75 },
-      ],
+      chip: 'bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100',
+      skills: ['React / Next.js', 'TypeScript','JavaScript', 'Tailwind CSS', 'HTML / CSS', 'Bootstrap'],
     },
     {
       title: 'Back-End',
       icon: '⚙️',
       color: 'from-indigo-500 to-blue-500',
-      bar: 'from-indigo-500 to-blue-500',
-      bg: 'bg-indigo-50',
-      border: 'border-indigo-200',
-      skills: [
-        { name: 'Node.js / Express.Js', level: 90 },
-        { name: 'Python / Django', level: 80 },
-        { name: 'PostgreSQL', level: 85 },
-        { name: 'REST API', level: 95 },
-      ],
+      chip: 'bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100',
+      skills: ['Node.js / Express.js', 'Python / Django', 'PostgreSQL', 'REST API'],
     },
     {
       title: 'DevOps & Tools',
       icon: '🛠️',
       color: 'from-cyan-500 to-teal-500',
-      bar: 'from-cyan-500 to-teal-500',
-      bg: 'bg-cyan-50',
-      border: 'border-cyan-200',
-      skills: [
-        { name: 'Git / GitHub', level: 95 },
-        { name: 'Docker', level: 78 },
-        { name: 'Vercel', level: 95 },
-        { name: 'Railway', level: 85 },
-        { name: 'WSL', level: 75 },
-      ],
+      chip: 'bg-cyan-50 text-cyan-700 border-cyan-200 hover:bg-cyan-100',
+      skills: ['Git / GitHub', 'Docker', 'Vercel', 'Railway', 'WSL', 'Midtrans', 'OpenCage', 'Redis'],
     },
   ]
 
@@ -63,20 +40,14 @@ export default function Skills() {
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-6">{category.title}</h3>
 
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-wrap gap-2">
                 {category.skills.map(skill => (
-                  <div key={skill.name}>
-                    <div className="flex justify-between mb-1">
-                      <span className="text-gray-600 text-sm">{skill.name}</span>
-                      <span className="text-blue-600 text-sm font-medium">{skill.level}%</span>
-                    </div>
-                    <div className="w-full bg-gray-100 rounded-full h-2">
-                      <div
-                        className={`h-2 rounded-full bg-gradient-to-r ${category.bar} transition-all duration-1000`}
-                        style={{ width: `${skill.level}%` }}
-                      />
-                    </div>
-                  </div>
+                  <span
+                    key={skill}
+                    className={`px-3 py-1.5 rounded-full border text-sm font-medium transition-colors duration-200 ${category.chip}`}
+                  >
+                    {skill}
+                  </span>
                 ))}
               </div>
             </div>

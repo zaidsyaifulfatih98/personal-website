@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "name": "Fajar Perdana Nasution",
+    "role": "Softwere Developer",
+    "company": "BCA Digital",
+    "photo": "https://scontent-cgk1-2.xx.fbcdn.net/v/t39.30808-6/269856636_5032643220092575_8952892153859552223_n.jpg?stp=dst-jpg_tt6&cstp=mx612x408&ctp=s612x408&_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aicRL131npEQ7kNvwFTJEMS&_nc_oc=AdqIfZVIhPefft5HVunBKlciTHUSBHt4SmrN9eHBySFuoUfyg5fE_RZTcxP_iVq8fWw&_nc_zt=23&_nc_ht=scontent-cgk1-2.xx&_nc_gid=QYto0tS_dTXRBWguymt-1w&_nc_ss=7b2a8&oh=00_AQCGkWaQjPftNXVrk3szS6fdqqR243j-xza42G8BMyjt3g&oe=6A5216AA",
+    "quote": "Transformed our outdated website into a modern, fast, and user-friendly platform. The technical expertise combined with great communication made the entire process smooth and successful."
+  },
+  {
+    "id": 1,
     "name": "Budi Santoso",
     "role": "CEO",
     "company": "Tech Solutions Inc.",
@@ -16,19 +24,12 @@
     "quote": "Exceptional problem-solving skills and clear communication throughout the project. Delivered a complex e-commerce solution that increased our client's online sales by 35% in just three months."
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Ahmad Rizki",
     "role": "CTO",
     "company": "Startup Hub",
     "photo": "https://randomuser.me/api/portraits/men/68.jpg",
     "quote": "Highly skilled full-stack developer who genuinely cares about the product. The code quality is outstanding, well-documented, and easy to maintain. I would highly recommend for any complex web project."
-  },
-  {
-    "id": 4,
-    "name": "Lisa Chen",
-    "role": "Founder",
-    "company": "E-Commerce Ventures",
-    "photo": "https://randomuser.me/api/portraits/women/65.jpg",
-    "quote": "Transformed our outdated website into a modern, fast, and user-friendly platform. The technical expertise combined with great communication made the entire process smooth and successful."
   }
+  
 ]
