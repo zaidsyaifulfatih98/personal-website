@@ -10,7 +10,7 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const navLinks = ['About', 'Skills', 'Portfolio', 'Experience', 'Testimonials', 'Contact']
+  const navLinks = ['About', 'Skills', 'Portfolio', 'Experience', 'Education', 'Contact']
 
   const scrollTo = (id: string) => {
     document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: 'smooth' })

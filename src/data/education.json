@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "institution": "Purwadhika Digital Technology School",
+    "degree": "Full-Stack Software Development Certification",
+    "field": "Computer Software Engineering",
+    "period": "Jan 2026 - Jul 2026",
+    "description": [
+      "Intensive and immersive full-stack software development program focusing on modern web technologies and agile development practices.",
+      "Tech Stack: JavaScript, TypeScript, React, Next.js, Express.js, Node.js, and PostgreSQL.",
+      "Core Competencies: RESTful API Design, Relational Database Management, Responsive Web Design, State Management, and Full-Stack Application Architecture."
+    ],
+    "skills": ["React.js", "Next.js", "Node.js", "Express.js", "PostgreSQL","REST APIs", "Prisma ORM", "HTML", "CSS", "Tailwind"]
+  },
+  {
+    "id": 2,
+    "institution": "Institut Teknologi Sepuluh Nopember (ITS)",
+    "degree": "Bachelor's Degree",
+    "field": "Geophysics and Seismology",
+    "period": "Aug 2017 - Sep 2021",
+    "description": [
+      "Activities and societies: Staff of Community Service Department (2017-2019), Theater Tiyang Alit (2017), Volley Ball (2018), member of Earth Inspiration Class (2017-2019).",
+      "Bachelor's Thesis: Safety Monitoring of Lusi (Lumpur Sidoarjo) Embankment In P-10 D Using 3D Resistivity Method.",
+      "Field measurement assistant using Resistivity 3D, GPR, Seismic, Gravity and Magnetic in Lusi (Lumpur Sidoarjo) Embankment.",
+      "Field measurement assistant using GPR, Gravity and Geology in geological fault Probolinggo.",
+      "Field measurement assistant using MT (Magnetotelluric) in Gresik, Lamongan and Surabaya."
+    ],
+    "skills": ["Python (Programming Language)", "GPR Surveying", "Resistivity Survey", "Seismic Survey", "Magnetotelluric (MT)", "Gravity & Magnetic Survey"]
+  }
+]

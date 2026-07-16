@@ -4,6 +4,7 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import Portfolio from '../components/Portofolio'
 import Experience from '../components/Experience'
+import Education from '../components/Education'
 import Testimonials from '../components/Testimonials'
 import Contact from '../components/Contact'
 
@@ -16,7 +17,7 @@ export default function HomePage() {
       <Skills />
       <Portfolio />
       <Experience />
-      <Testimonials />
+      <Education />
       <Contact />
     </main>
   )
