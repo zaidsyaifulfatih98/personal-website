@@ -12,7 +12,7 @@ export default function Skills() {
       icon: '⚙️',
       color: 'from-indigo-500 to-blue-500',
       chip: 'bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100',
-      skills: ['Node.js / Express.js', 'Python / Django', 'PostgreSQL', 'REST API'],
+      skills: ['Node.js / Express.js', 'Python / Django', 'PostgreSQL', 'REST API', 'R'],
     },
     {
       title: 'DevOps & Tools',
@@ -35,9 +35,6 @@ export default function Skills() {
         <div className="grid md:grid-cols-3 gap-8">
           {skillCategories.map(category => (
             <div key={category.title} className="bg-white rounded-2xl p-6 border border-gray-200 hover:border-blue-400 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-              <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${category.color} flex items-center justify-center text-2xl mb-5 shadow-md`}>
-                {category.icon}
-              </div>
               <h3 className="text-xl font-bold text-gray-800 mb-6">{category.title}</h3>
 
               <div className="flex flex-wrap gap-2">
