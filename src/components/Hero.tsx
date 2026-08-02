@@ -1,4 +1,4 @@
-import photo from '../assets/photo_personalWebsite.jpeg'
+import photo from '../assets/Zaid_Syaiful_Fatih.png'
 
 export default function Hero() {
   const scrollTo = (id: string) => {
