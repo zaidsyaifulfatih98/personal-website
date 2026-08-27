@@ -2,6 +2,7 @@ import { useState } from 'react'
 import LokaHajat from '../assets/tumbnail_LokaHajat.png'
 import FreshPress from '../assets/tumbnail_FreshPress.png'
 import RejekiBarokah from '../assets/tumbnail_RejekiBarokah.png'
+import NoraPhotobooth from '../assets/thumbnail_NoraPhotobooth.png'
 
 const projects = [
   {
@@ -43,19 +44,35 @@ const projects = [
     github: '#',
     live: 'https://freshpress-laundry.vercel.app',
   },
-  {
+ {
     id: 4,
-    title: 'UD. Rejeki Barokah - Business Website',
-    category: 'Front-End',
-    image: RejekiBarokah,
-    technologies: ['React.js', 'Tailwind CSS'],
-    situation: 'UD. Rejeki Barokah, a building materials and metal fabrication shop in Jombang, Indonesia, had no online presence to showcase its products and reach customers beyond word of mouth.',
-    task: 'Build a responsive business website to present the shop\'s steel products and fabrication services, and make it easy for customers to get in touch.',
-    action: 'Built a fully responsive UI with React.js and Tailwind CSS, featuring a product and services showcase, customer testimonials, and clear contact information with direct WhatsApp and phone call-to-action buttons.',
-    result: 'Delivered a live business website that gives the shop a professional online presence and a simple way for customers to browse offerings and reach out directly.',
+    title: 'Nora Photobooth - Event Services & Admin Management Platform',
+    category: 'Full-Stack',
+    image: NoraPhotobooth,
+    technologies: ['Nuxt 4', 'Vue 3', 'Pinia', 'Tailwind CSS', 'Go', 'Gin', 'GORM', 'PostgreSQL', 'JWT', 'Cloudinary', 'Google Sheets API'],
+    situation: 'A photobooth rental business needed a marketing website to showcase packages and past events, plus a back-office system for staff to manage content and track finances without touching the database directly.',
+    task: 'Build a public-facing site to present rental packages, galleries, and testimonials, alongside a secured admin dashboard for full content and financial management, backed by a robust and independently deployable API.',
+    action: 'Developed the frontend with Nuxt 4, Vue 3, and Pinia for state management, styled with Tailwind CSS, and validated forms with vee-validate and zod. Built a layered REST API in Go using the Gin framework, with GORM and PostgreSQL for structured data such as packages, reviews, gallery items, frame templates, and backdrops. Implemented JWT-based authentication with role-based access control (Super Admin / Admin) to secure all write operations. Integrated Cloudinary for media asset uploads and connected the finance module to the Google Sheets API so staff could track income and expenses in a familiar spreadsheet interface. Migrated the backend from a Prisma/Node stack to Go + GORM for improved performance and deployed both apps independently on Vercel.',
+    result: 'Delivered a fully functional platform with a public marketing site driving inquiries via WhatsApp, and a role-protected admin dashboard for managing packages, gallery, reviews, features, frame templates, backdrops, and finances — all served by an independently deployed Go API.',
     github: '#',
-    live: 'https://www.zaidsyaifulfatih.online/',
-  },
+    live: 'https://nora-photobooth.vercel.app',
+  }
+,
+  {
+      
+      id: 5,
+      title: 'UD. Rejeki Barokah - Business Website',
+      category: 'Front-End',
+      image: RejekiBarokah,
+      technologies: ['React.js', 'Tailwind CSS'],
+      situation: 'UD. Rejeki Barokah, a building materials and metal fabrication shop in Jombang, Indonesia, had no online presence to showcase its products and reach customers beyond word of mouth.',
+      task: 'Build a responsive business website to present the shop\'s steel products and fabrication services, and make it easy for customers to get in touch.',
+      action: 'Built a fully responsive UI with React.js and Tailwind CSS, featuring a product and services showcase, customer testimonials, and clear contact information with direct WhatsApp and phone call-to-action buttons.',
+      result: 'Delivered a live business website that gives the shop a professional online presence and a simple way for customers to browse offerings and reach out directly.',
+      github: '#',
+      live: 'https://www.zaidsyaifulfatih.online',
+    
+  }
 ]
 
 export default function Portfolio() {

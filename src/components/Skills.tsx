@@ -5,14 +5,14 @@ export default function Skills() {
       icon: '🎨',
       color: 'from-blue-400 to-blue-600',
       chip: 'bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100',
-      skills: ['React / Next.js', 'TypeScript','JavaScript', 'Tailwind CSS', 'HTML / CSS', 'Bootstrap'],
+      skills: ['React / Next.js', 'TypeScript','JavaScript', 'Tailwind CSS', 'HTML / CSS', 'Bootstrap', 'Vue.js', 'Nuxt.js'],
     },
     {
       title: 'Back-End',
       icon: '⚙️',
       color: 'from-indigo-500 to-blue-500',
       chip: 'bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100',
-      skills: ['Node.js / Express.js', 'Python / Django', 'PostgreSQL', 'REST API', 'R'],
+      skills: ['Node.js / Express.js', 'Python / Django', 'PostgreSQL', 'REST API', 'R', 'Go', 'GORM', 'Gin'],
     },
     {
       title: 'DevOps & Tools',
