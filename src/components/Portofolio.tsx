@@ -6,31 +6,19 @@ import NoraPhotobooth from '../assets/thumbnail_NoraPhotobooth.png'
 
 const projects = [
   {
-    id: 1,
-    title: 'Anomali Coffee',
+    id: 4,
+    title: 'Nora Photobooth - Event Services & Admin Management Platform',
     category: 'Full-Stack',
-    image: 'https://company-profile-anomali-coffee.vercel.app/assets/about1-BkOxxUoA.webp',
-    technologies: ['React', 'Node.js', 'Express.Js', 'Backendless'],
-    situation: 'As a coding bootcamp final project, I was tasked with building a company profile and e-commerce site for a fictional coffee brand, Anomali Coffee, to showcase full-stack development skills.',
-    task: 'Build the front-end and back-end from scratch, including a product catalog, shopping cart, and checkout flow with a real backend for data persistence.',
-    action: 'Built a responsive UI with React, developed RESTful APIs with Node.js and Express.js, and used Backendless for data storage and authentication.',
-    result: 'Delivered a fully functional, deployed web app within the project deadline, strengthening my hands-on experience with end-to-end full-stack development.',
+    image: NoraPhotobooth,
+    technologies: ['Nuxt 4', 'Vue 3', 'Pinia', 'Tailwind CSS', 'Go', 'Gin', 'GORM', 'PostgreSQL', 'JWT', 'Cloudinary', 'Google Sheets API'],
+    situation: 'A photobooth rental business needed a marketing website to showcase packages and past events, plus a back-office system for staff to manage content and track finances without touching the database directly.',
+    task: 'Build a public-facing site to present rental packages, galleries, and testimonials, alongside a secured admin dashboard for full content and financial management, backed by a robust and independently deployable API.',
+    action: 'Developed the frontend with Nuxt 4, Vue 3, and Pinia for state management, styled with Tailwind CSS, and validated forms with vee-validate and zod. Built a layered REST API in Go using the Gin framework, with GORM and PostgreSQL for structured data such as packages, reviews, gallery items, frame templates, and backdrops. Implemented JWT-based authentication with role-based access control (Super Admin / Admin) to secure all write operations. Integrated Cloudinary for media asset uploads and connected the finance module to the Google Sheets API so staff could track income and expenses in a familiar spreadsheet interface. Migrated the backend from a Prisma/Node stack to Go + GORM for improved performance and deployed both apps independently on Vercel.',
+    result: 'Delivered a fully functional platform with a public marketing site driving inquiries via WhatsApp, and a role-protected admin dashboard for managing packages, gallery, reviews, features, frame templates, backdrops, and finances — all served by an independently deployed Go API.',
     github: '#',
-    live: 'https://company-profile-anomali-coffee.vercel.app/',
+    live: 'https://www.noraphotobooth.online',
   },
-  {
-    id: 2,
-    title: 'LokaHajat - Event Management Platform',
-    category: 'Full-Stack',
-    image: LokaHajat,
-    technologies: ['React.js', 'TypeScript', 'Tailwind CSS', 'Express.js', 'Node.js', 'PostgreSQL', 'Prisma ORM'],
-    situation: 'Event organizers and attendees needed a reliable platform to discover events, book tickets securely, and manage ticket sales without relying on scattered manual processes.',
-    task: 'Develop a comprehensive, full-stack event ticketing platform covering event discovery and booking, a referral and loyalty point system, and an organizer dashboard for managing events and sales.',
-    action: 'Built a dynamic frontend with React.js, TypeScript, and Tailwind CSS for browsing events, filtering by category, and completing a secure checkout flow. Engineered custom business logic for referral mechanics, rewarding users with points and loyalty discounts on successful conversions. Developed a CMS-style organizer dashboard with Express.js, Node.js, PostgreSQL, and Prisma ORM for creating events, managing ticket inventories, and monitoring sales metrics in real-time.',
-    result: 'Delivered a fully functional, deployed event ticketing platform with automated referral rewards and real-time organizer analytics.',
-    github: '#',
-    live: 'https://lokahajat.vercel.app/',
-  },
+
   {
     id: 3,
     title: 'FreshPress - Laundry Services App',
@@ -44,20 +32,23 @@ const projects = [
     github: '#',
     live: 'https://freshpress-laundry.vercel.app',
   },
- {
-    id: 4,
-    title: 'Nora Photobooth - Event Services & Admin Management Platform',
+  {
+    id: 1,
+    title: 'Anomali Coffee',
     category: 'Full-Stack',
-    image: NoraPhotobooth,
-    technologies: ['Nuxt 4', 'Vue 3', 'Pinia', 'Tailwind CSS', 'Go', 'Gin', 'GORM', 'PostgreSQL', 'JWT', 'Cloudinary', 'Google Sheets API'],
-    situation: 'A photobooth rental business needed a marketing website to showcase packages and past events, plus a back-office system for staff to manage content and track finances without touching the database directly.',
-    task: 'Build a public-facing site to present rental packages, galleries, and testimonials, alongside a secured admin dashboard for full content and financial management, backed by a robust and independently deployable API.',
-    action: 'Developed the frontend with Nuxt 4, Vue 3, and Pinia for state management, styled with Tailwind CSS, and validated forms with vee-validate and zod. Built a layered REST API in Go using the Gin framework, with GORM and PostgreSQL for structured data such as packages, reviews, gallery items, frame templates, and backdrops. Implemented JWT-based authentication with role-based access control (Super Admin / Admin) to secure all write operations. Integrated Cloudinary for media asset uploads and connected the finance module to the Google Sheets API so staff could track income and expenses in a familiar spreadsheet interface. Migrated the backend from a Prisma/Node stack to Go + GORM for improved performance and deployed both apps independently on Vercel.',
-    result: 'Delivered a fully functional platform with a public marketing site driving inquiries via WhatsApp, and a role-protected admin dashboard for managing packages, gallery, reviews, features, frame templates, backdrops, and finances — all served by an independently deployed Go API.',
+    image: 'https://company-profile-anomali-coffee.vercel.app/assets/about1-BkOxxUoA.webp',
+    technologies: ['React', 'Node.js', 'Express.Js', 'Backendless'],
+    situation: 'As a coding bootcamp final project, I was tasked with building a company profile and e-commerce site for a fictional coffee brand, Anomali Coffee, to showcase full-stack development skills.',
+    task: 'Build the front-end and back-end from scratch, including a product catalog, shopping cart, and checkout flow with a real backend for data persistence.',
+    action: 'Built a responsive UI with React, developed RESTful APIs with Node.js and Express.js, and used Backendless for data storage and authentication.',
+    result: 'Delivered a fully functional, deployed web app within the project deadline, strengthening my hands-on experience with end-to-end full-stack development.',
     github: '#',
-    live: 'https://nora-photobooth.vercel.app',
-  }
-,
+    live: 'https://company-profile-anomali-coffee.vercel.app/',
+  },
+  
+  
+ 
+
   {
       
       id: 5,

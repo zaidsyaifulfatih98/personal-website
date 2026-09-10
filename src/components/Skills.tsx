@@ -5,7 +5,7 @@ export default function Skills() {
       icon: '🎨',
       color: 'from-blue-400 to-blue-600',
       chip: 'bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100',
-      skills: ['React / Next.js', 'TypeScript','JavaScript', 'Tailwind CSS', 'HTML / CSS', 'Bootstrap', 'Vue.js', 'Nuxt.js'],
+      skills: ['React / Next.js', 'TypeScript','JavaScript', 'Tailwind CSS', 'HTML / CSS', 'Bootstrap', 'Vue.js', 'Nuxt.js', 'I18n', ],
     },
     {
       title: 'Back-End',
@@ -19,7 +19,7 @@ export default function Skills() {
       icon: '🛠️',
       color: 'from-cyan-500 to-teal-500',
       chip: 'bg-cyan-50 text-cyan-700 border-cyan-200 hover:bg-cyan-100',
-      skills: ['Git / GitHub', 'Docker', 'Vercel', 'Railway', 'WSL', 'Midtrans', 'OpenCage', 'Redis'],
+      skills: ['Git / GitHub', 'Docker', 'Vercel', 'Railway', 'WSL', 'Midtrans', 'OpenCage', 'Redis', 'Ubuntu Vps', 'Github Actions'],
     },
   ]
 
