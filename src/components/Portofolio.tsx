@@ -6,7 +6,7 @@ import NoraPhotobooth from '../assets/thumbnail_NoraPhotobooth.png'
 
 const projects = [
   {
-    id: 4,
+    id: 1,
     title: 'Nora Photobooth - Event Services & Admin Management Platform',
     category: 'Full-Stack',
     image: NoraPhotobooth,
@@ -20,7 +20,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 2,
     title: 'FreshPress - Laundry Services App',
     category: 'Full-Stack',
     image: FreshPress,
@@ -33,7 +33,20 @@ const projects = [
     live: 'https://freshpress-laundry.vercel.app',
   },
   {
-    id: 1,
+    id: 3,
+    title: 'LokaHajat - Event Management Platform',
+    category: 'Full-Stack',
+    image: LokaHajat,
+    technologies: ['React.js', 'TypeScript', 'Tailwind CSS', 'Express.js', 'Node.js', 'PostgreSQL', 'Prisma ORM'],
+    situation: 'Event organizers and attendees needed a reliable platform to discover events, book tickets securely, and manage ticket sales without relying on scattered manual processes.',
+    task: 'Develop a comprehensive, full-stack event ticketing platform covering event discovery and booking, a referral and loyalty point system, and an organizer dashboard for managing events and sales.',
+    action: 'Built a dynamic frontend with React.js, TypeScript, and Tailwind CSS for browsing events, filtering by category, and completing a secure checkout flow. Engineered custom business logic for referral mechanics, rewarding users with points and loyalty discounts on successful conversions. Developed a CMS-style organizer dashboard with Express.js, Node.js, PostgreSQL, and Prisma ORM for creating events, managing ticket inventories, and monitoring sales metrics in real-time.',
+    result: 'Delivered a fully functional, deployed event ticketing platform with automated referral rewards and real-time organizer analytics.',
+    github: '#',
+    live: 'https://lokahajat.vercel.app/',
+  },
+  {
+    id: 4,
     title: 'Anomali Coffee',
     category: 'Full-Stack',
     image: 'https://company-profile-anomali-coffee.vercel.app/assets/about1-BkOxxUoA.webp',
@@ -45,7 +58,6 @@ const projects = [
     github: '#',
     live: 'https://company-profile-anomali-coffee.vercel.app/',
   },
-  
   
  
 
