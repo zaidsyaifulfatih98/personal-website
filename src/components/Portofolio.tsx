@@ -30,7 +30,7 @@ const projects = [
     action: 'Implemented secure authentication and a seamless ordering flow with Next.js and TypeScript, letting customers select services and track orders in real-time. Built multi-role access control for Admin, Super Admin, and Drivers to manage outlets, logistics, and processing stages. Engineered relational database schemas with PostgreSQL and Prisma ORM to handle complex order transactions and point balances, and integrated Midtrans for payments plus OpenCage and Geolocation for address and delivery tracking.',
     result: 'Delivered a fully functional, deployed laundry service platform with real-time order tracking, role-based operations, and integrated payment and location services.',
     github: '#',
-    live: 'https://freshpress-laundry.vercel.app',
+    live: 'https://www.freshpress.my.id',
   },
   {
     id: 3,
@@ -92,6 +92,14 @@ export default function Portfolio() {
           <p className="text-blue-600 font-medium tracking-widest text-sm uppercase mb-2">My Work</p>
           <h2 className="text-4xl font-bold text-gray-800">Portfolio</h2>
           <div className="w-16 h-1 bg-blue-600 mx-auto mt-4 rounded-full" />
+          <a
+            href="/Zaid_Syaiful_Fatih_Portfolio.pdf"
+            download
+            className="inline-flex items-center gap-2 mt-6 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 hover:scale-105 shadow-lg shadow-blue-200"
+          >
+            Download Portfolio PDF
+            <span>↓</span>
+          </a>
         </div>
 
         {/* Filter Buttons */}
