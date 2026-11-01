@@ -3,10 +3,24 @@ import LokaHajat from '../assets/tumbnail_LokaHajat.png'
 import FreshPress from '../assets/tumbnail_FreshPress.png'
 import RejekiBarokah from '../assets/tumbnail_RejekiBarokah.png'
 import NoraPhotobooth from '../assets/thumbnail_NoraPhotobooth.png'
+import BecAssistant from '../assets/thumbnail_BecAssistant.png'
 
 const projects = [
   {
     id: 1,
+    title: 'BEC Assistant - AI-Powered English Language Assistant Application',
+    category: 'Full-Stack',
+    image: BecAssistant,
+    technologies: [ 'React 19', 'TypeScript', 'Vite', 'Tailwind CSS', 'TanStack Query', 'Zustand', 'Recharts', 'Go (chi)', 'PostgreSQL', 'OpenAI API', 'Google OAuth', 'Docker', 'Caddy', 'GitHub Actions'],
+    situation: 'Nora, a photobooth business, needed a single web platform for customers (landing page, promos, in-browser photo flow) and for operations (dashboards for packages, gallery, finance), on low-cost serverless infrastructure on Vercel.',
+    task: 'As the full-stack developer, I was responsible for designing and building the entire system on my own, from the REST API and authentication to the bilingual frontend, the photobooth flow, and deployment.',
+    action: 'I built a modular Go backend (Gin, GORM, PostgreSQL, JWT, Cloudinary) and a bilingual, mobile-friendly Nuxt 4 frontend (Vue 3, Pinia, Tailwind, Zod), and set up CI/CD. When Go cold starts on Vercel hung, I diagnosed the issue through stage-by-stage boot logging and moved AutoMigrate into a separate `cmd/migrate` command',
+    result: 'The platform is live with about 12 backend modules and 14 dashboard pages, and serverless cold starts are now stable. ',
+    github: '#',
+    live: 'https://bec-it.web.id',
+  },
+  {
+    id: 2,
     title: 'Nora Photobooth - Event Services & Admin Management Platform',
     category: 'Full-Stack',
     image: NoraPhotobooth,
@@ -20,7 +34,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: 'FreshPress - Laundry Services App',
     category: 'Full-Stack',
     image: FreshPress,
@@ -33,7 +47,7 @@ const projects = [
     live: 'https://www.freshpress.my.id',
   },
   {
-    id: 3,
+    id: 4,
     title: 'LokaHajat - Event Management Platform',
     category: 'Full-Stack',
     image: LokaHajat,
@@ -46,7 +60,7 @@ const projects = [
     live: 'https://lokahajat.vercel.app/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Anomali Coffee',
     category: 'Full-Stack',
     image: 'https://company-profile-anomali-coffee.vercel.app/assets/about1-BkOxxUoA.webp',
@@ -63,7 +77,7 @@ const projects = [
 
   {
       
-      id: 5,
+      id: 6,
       title: 'UD. Rejeki Barokah - Business Website',
       category: 'Front-End',
       image: RejekiBarokah,

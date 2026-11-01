@@ -5,21 +5,21 @@ export default function Skills() {
       icon: '🎨',
       color: 'from-blue-400 to-blue-600',
       chip: 'bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100',
-      skills: ['React / Next.js', 'TypeScript','JavaScript', 'Tailwind CSS', 'HTML / CSS', 'Bootstrap', 'Vue.js', 'Nuxt.js', 'I18n', ],
+      skills: ['React / Next.js', 'Vue 3 / Nuxt 4', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'HTML / CSS', 'Vite', 'Pinia', 'Zustand', 'TanStack Query', 'Recharts', 'Zod / vee-validate', 'I18n'],
     },
     {
       title: 'Back-End',
       icon: '⚙️',
       color: 'from-indigo-500 to-blue-500',
       chip: 'bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100',
-      skills: ['Node.js / Express.js', 'Python / Django', 'PostgreSQL', 'REST API', 'R', 'Go', 'GORM', 'Gin'],
+      skills: ['Go', 'Gin / chi', 'GORM', 'Node.js / Express.js', 'Prisma ORM', 'PostgreSQL', 'REST API', 'Google OAuth', 'OpenAI API', 'Cloudinary', 'Google Sheets API', 'Midtrans', 'OpenCage', 'Backendless'],
     },
     {
       title: 'DevOps & Tools',
       icon: '🛠️',
       color: 'from-cyan-500 to-teal-500',
       chip: 'bg-cyan-50 text-cyan-700 border-cyan-200 hover:bg-cyan-100',
-      skills: ['Git / GitHub', 'Docker', 'Vercel', 'Railway', 'WSL', 'Midtrans', 'OpenCage', 'Redis', 'Ubuntu Vps', 'Github Actions'],
+      skills: ['Git / GitHub', 'GitHub Actions (CI/CD)', 'Docker', 'Caddy', 'Ubuntu VPS', 'Vercel', 'Serverless Deployment'],
     },
   ]
 
